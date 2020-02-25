@@ -2,6 +2,10 @@
 
 As is traditon with learning a new language, I am building a todo list. 
 
+
+## Current 
+- Starting databse implementation 
+
 ## Installation
 
 
