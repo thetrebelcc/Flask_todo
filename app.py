@@ -17,7 +17,7 @@ class Todo(db.Model):
         return '<Task %r>' % self.id
 
 # Routing for app 
-@app.route('/')
+@app.route('/', methods=['POST','GET'])
 def index():
     return render_template('index.html')
 
